@@ -30,19 +30,17 @@ public boolean isPrime(double num)
   for(int i = 2; i <= Math.sqrt(num); i++)
   {
 
-  /*System.out.println((int)num/i);
-  System.out.println((double)num/i);
 
-   if ( ((double)num/i) == ((int)num/i) )
+   if ( ((double)num/i) == (Math.floor(num/i)) )
    {
      return false;
 
-   }*/
+   }/*
 
    if (num%i == 0)
    {
     return false;
-   } 
+   } */
   }
   
     return true;
